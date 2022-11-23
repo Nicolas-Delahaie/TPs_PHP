@@ -1,0 +1,14 @@
+array(3) 
+{
+	["nom"]=> string(5)  
+		"Form1"
+	["nbre"]=> string(1)  
+		"4"
+	["champs"]=> array(4) 
+	{ 
+		[0]=> string(3) "Nom" 
+		[1]=> string(6) "Prenom"
+		[2]=> string(3) "Age" 
+		[3]=> string(5) "Ville" 
+	} 
+}
