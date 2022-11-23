@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <style>
+            form{
+                display:grid;
+                grid-template-columns: 200px 1fr;
+            }
+            input[type="submit"]{
+                grid-column: 2;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="ex1-script.php" method="GET">
+            <label>Nombre de photos a uploader</label>      <input type="number" name="nb_photos">
+                                                            <input type="submit" name="exporter" value="Exporter">
+        </form>
+    </body>
+</html>

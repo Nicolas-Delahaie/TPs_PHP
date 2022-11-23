@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            form{
+                display:grid;
+                grid-template-columns: 200px 1fr;
+            }
+            input[type="submit"]{
+                grid-column: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="ex1-script.php" method="GET">
+            <label>Nom</label>                      <input type="text" name="nom">
+            <label>Age</label>                      <input type="number" name="age">
+            <label>Mail</label>                     <input type="email" name="mail">
+            <label>Valeur du don (en euro)</label>  <input type="number" name="don">
+                                                    <input type= submit name="valider" value="Faire le don">
+                                                    <input type= submit name="resultats" value="Envoyer mail aux participants">      
+        </form>
+    </body>
+</html>
